@@ -24,6 +24,7 @@ This project is an AI-powered article summarizer built using **React**, **Vite**
 ## Live Demo
 
 Check out the link for the article summarizer here:
+[https://article-summarizer-kappa-nine.vercel.app/](https://article-summarizer-kappa-nine.vercel.app/)
 
 
 ## Installation
