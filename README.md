@@ -1,8 +1,50 @@
-# React + Vite
+# AI Article Summarizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is an AI-powered article summarizer built using **React**, **Vite**, **Tailwind CSS**, **Redux** for article summarization. The application allows users to paste URLs, and it generates a concise summary of the content using GPT-4, a powerful language model from OpenAI, accessed through RapidAPI.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **AI-based Article Summarization**: Automatically summarizes long articles and web pages into shorter, more digestible summaries using GPT-4.
+- **Responsive Design**: Mobile-friendly interface built using Tailwind CSS.
+- **State Management**: Efficient state management using Redux for managing application states like user inputs, fetched summaries, and loading status.
+- **Fast Development with Vite**: Vite provides an ultra-fast development environment for React.
+- **Simple UI**: Clean, user-friendly interface for easy interaction.
+- **RapidAPI Integration**: Access GPT-4 through the RapidAPI platform for fast and reliable AI summarization.
+
+## Tech Stack
+
+- **Frontend**: 
+  - React (with hooks)
+  - Vite (for fast build and hot-reload)
+  - Tailwind CSS (for utility-first CSS styling)
+  - Redux (for state management)
+- **AI**:
+  - **GPT-4 via RapidAPI**: Uses the GPT-4 API from RapidAPI to generate accurate and coherent summaries of articles and text content.
+ 
+## Live Demo
+
+Check out the link for the article summarizer here:
+
+
+## Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/Sambodhi-Roy/article-summarizer.git
+   cd article-summarizer
+
+2. **Install Dependencies:**
+
+   ```bash
+   npm install
+
+3. **Set-up your RapidAPI Key:**
+
+   ```bash
+   https://rapidapi.com/restyler/api/article-extractor-and-summarizer
+
+4. **Start the Developement Server:**
+
+   ```bash
+   npm run dev
